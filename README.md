@@ -16,8 +16,8 @@ A modern, responsive portfolio website showcasing the work and skills of Maithil
 - **Skills Section**: Comprehensive skills display across multiple domains
 
 ## 🚀 Live Demo
-
-Visit the live portfolio:
+You can view my live portfolio here:  
+[https://maithili-tyagi-web.vercel.app/](https://maithili-tyagi-web.vercel.app/)
 
 ## 🛠️ Tech Stack
 
