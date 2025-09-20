@@ -44,7 +44,7 @@ const About = () => {
               <div className="absolute -inset-2 rounded-xl bg-gradient-to-r from-primary/20 to-secondary blur-xl opacity-50"></div>
               <div className="relative overflow-hidden rounded-lg bg-card shadow-xl">
                 <img 
-                  src="/placeholder.svg" 
+                  src="/maith.png" 
                   alt="Maithili Tyagi" 
                   className="w-full h-auto object-cover aspect-[4/3]"
                   loading="lazy"

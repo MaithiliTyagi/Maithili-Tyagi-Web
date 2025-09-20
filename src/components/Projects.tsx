@@ -13,49 +13,49 @@ const projects: Project[] = [
   {
     title: "IoT Based Home Automation",
     description: "Voice-Controlled Home Automation Prototype made with Alexa for smart home control and automation.",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+    image: "/IOT-basedhome.png",
     tags: ["IoT", "Alexa", "Smart Home", "Voice Control"],
     link: "https://github.com/MaithiliTyagi"
   },
   {
     title: "Weather App",
     description: "Python-Based Weather App that provides real-time weather information and forecasts.",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b",
+    image: "/weatherapp.jpg",
     tags: ["Python", "Weather API", "GUI"],
     link: "https://github.com/MaithiliTyagi"
   },
   {
     title: "Hangman Game",
     description: "Classic Hangman Game implemented in Python with interactive gameplay and word guessing mechanics.",
-    image: "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5",
+    image: "/hangman.jpeg",
     tags: ["Python", "Game Development", "Console Game"],
     link: "https://github.com/MaithiliTyagi/Hangman"
   },
   {
     title: "Stock Market Predictor",
     description: "Python-based application for stock market analysis and prediction using data science techniques.",
-    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
+    image: "/stockmarkerpredict.png",
     tags: ["Python", "Data Science", "Financial Analysis"],
     link: "https://stockmarketpredictor1301.streamlit.app/"
   },
   {
     title: "Tic Tac Toe Game",
     description: "Interactive Tic Tac Toe game built with modern web technologies for engaging gameplay.",
-    image: "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5",
+    image: "/tic-tac-toe.png",
     tags: ["JavaScript", "React", "Game Development", "Web App"],
     link: "https://tic-tac-toe-alpha-nine-46.vercel.app"
   },
   {
     title: "Dots and Boxes Game",
     description: "Classic Dots and Boxes strategy game implemented for web browsers with interactive gameplay.",
-    image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256",
+    image: "/DotsandBoxes.webp",
     tags: ["JavaScript", "Game Development", "Strategy Game", "Web App"],
     link: "https://dotsand-boxes.vercel.app"
   },
   {
     title: "My Portfolio",
     description: "Personal portfolio website showcasing my projects, skills, and professional journey.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    image: "/portfolio.png",
     tags: ["React", "TypeScript", "Portfolio", "Web Development"],
     link: "https://myportfolio.vercel.app"
   }
@@ -91,12 +91,12 @@ const ProjectCard = ({ project, delay }: { project: Project; delay: string }) =>
       className="reveal overflow-hidden rounded-xl border border-border bg-card shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
       style={{ animationDelay: delay }}
     >
-      <div className="relative aspect-video overflow-hidden">
+      <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10" />
         <img 
           src={project.image} 
           alt={project.title} 
-          className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+          className="w-full h-auto object-contain transition-transform duration-500 hover:scale-105"
           loading="lazy"
         />
       </div>

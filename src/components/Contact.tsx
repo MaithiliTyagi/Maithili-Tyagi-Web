@@ -174,15 +174,7 @@ const Contact = () => {
                 tyagimaithili918@gmail.com
               </a>
             </p>
-            <p>
-              Or call me at{" "}
-              <a 
-                href="tel:+916281848223" 
-                className="text-primary hover:underline"
-              >
-                +91 6281848223
-              </a>
-            </p>
+            
           </div>
         </div>
       </div>
